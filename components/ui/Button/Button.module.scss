@@ -1,0 +1,17 @@
+.Button {
+  text-align: center;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 4px;
+  color: #000;
+  width: 235px;
+  height: 60px;
+  background: #5dd557;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background: #7F36C4FF;
+    color: #fff;
+  }
+}

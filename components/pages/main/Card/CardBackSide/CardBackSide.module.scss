@@ -1,0 +1,87 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  //background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  backdrop-filter: blur(12px) opacity(0.8);
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.8), rgba(32, 58, 67, 0.7), rgba(44, 83, 100, 0.8));
+  border-radius: 20px;
+  padding: 20px;
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+.TopBlackLine {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: #000;
+}
+
+.Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 50px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  height: 100%;
+  width: fit-content;
+  color: black;
+  font-style: normal;
+}
+
+.CVV {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 70px;
+  height: 100%;
+  background: #999;
+}
+
+.CVVChars {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Lines {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 12px;
+  position: absolute;
+  bottom: 15px;
+
+  .FirstLine {
+    width: 160px;
+    height: 10px;
+    background: #fff;
+  }
+
+  .SecondLine {
+    width: 120px;
+    height: 10px;
+    background: #fff;
+  }
+
+}

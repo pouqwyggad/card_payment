@@ -1,0 +1,33 @@
+.TextField {
+  width: 100%;
+  position: relative;
+}
+
+.Label {
+  position: absolute;
+  color: black;
+  padding: 0 5px;
+  top: -10px;
+  background: #fff;
+  left: 20px;
+}
+
+.Input {
+  font-size: 14px;
+  color: black ;
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    border: 1px solid #5dd557;
+  }
+
+  &:focus {
+    border: 1px solid #5dd557;
+  }
+
+
+}

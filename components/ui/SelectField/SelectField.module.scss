@@ -1,0 +1,44 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  color: #000;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    border: 1px solid #5dd557;
+  }
+
+}
+
+.Label {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  padding: 0 5px;
+  background: #fff;
+}
+
+.Select {
+  padding: 15px 20px;
+  width: 100%;
+  z-index: 3;
+  appearance: none;
+  color: grey;
+
+  &Active {
+    color: black;
+  }
+}
+
+.Arrow {
+  position: absolute;
+  top: calc(50% - 7px);
+  right: 20px;
+  transition: all .2s ease;
+}

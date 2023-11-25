@@ -1,0 +1,23 @@
+.Wrapper {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  z-index: 2;
+}
+
+.Card {
+  width: 400px;
+  height: 230px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: all .5s ease;
+  position: relative;
+
+  &.Active {
+    transform: rotateY(180deg);
+  }
+}
+
+.IconChip {
+  width: 60px;
+}

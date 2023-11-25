@@ -1,0 +1,21 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  padding: 140px 80px 40px 80px;
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  gap: 30px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.Row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
